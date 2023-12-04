@@ -7,7 +7,7 @@ import { AppComponent } from './app.component';
 
 import { GifsModule } from './gifs/gifs.module';
 import { SharedModule } from './shared/shared.module';
-import { SearchBoxComponent } from './gifs/components/search-box/search-box.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -18,6 +18,7 @@ import { SearchBoxComponent } from './gifs/components/search-box/search-box.comp
     AppRoutingModule,
     GifsModule,
     SharedModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
